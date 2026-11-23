@@ -1,0 +1,18 @@
+{
+  "data_classification": "synthetic demonstration, no Bizex customer records",
+  "execution_engine": "local Python standard library, not Hadoop/Spark/Hive",
+  "input_file": "synthetic_validation_fixture.csv",
+  "input_sha256": "af855fd06fd25880c13c123236c6eb8e8c5596e9d0cc9b5c831f6213ad63c4e9",
+  "rows_input": 16,
+  "rows_valid": 14,
+  "rows_quarantined": 2,
+  "rows_deduplicated": 2,
+  "unique_leads": 12,
+  "latest_status_snapshots": 12,
+  "counts_by_platform": {
+    "Facebook": 2,
+    "Instagram": 5,
+    "Website": 3,
+    "WhatsApp": 2
+  }
+}

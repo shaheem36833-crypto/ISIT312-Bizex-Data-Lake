@@ -1,0 +1,13 @@
+lead_id,snapshot_at,status,consultant
+SYN-001,2026-06-01T09:10:00Z,New,Unassigned
+SYN-002,2026-06-02T09:00:00Z,Won,Consultant A
+SYN-003,2026-06-03T11:00:00Z,Non Responsive,Consultant B
+SYN-004,2026-06-03T08:30:00Z,Hot Prospect,Consultant A
+SYN-005,2026-06-03T13:00:00Z,Warm Prospect,Consultant C
+SYN-006,2026-06-04T10:00:00Z,Won,Consultant A
+SYN-007,2026-06-06T10:00:00Z,Warm Prospect,Consultant B
+SYN-008,2026-06-04T11:22:00Z,New,Unassigned
+SYN-009,2026-06-07T12:00:00Z,Deal Lost,Consultant C
+SYN-010,2026-06-07T09:00:00Z,Interested,Consultant A
+SYN-011,2026-06-07T16:35:00Z,Junk / Invalid,Unassigned
+SYN-012,2026-06-08T15:00:00Z,Interested,Consultant B

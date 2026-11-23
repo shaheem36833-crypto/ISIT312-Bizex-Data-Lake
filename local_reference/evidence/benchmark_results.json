@@ -1,0 +1,59 @@
+{
+  "limitations": [
+    "Generated synthetic data; no company records used",
+    "In-memory single-machine algorithm comparison; not Spark or Hadoop MapReduce",
+    "Includes SQLite insertion in SQL timing; excludes file ingestion in Python timing",
+    "Three timing repeats; hardware and load affect results",
+    "Do not interpret as streaming latency or a production throughput benchmark"
+  ],
+  "results": [
+    {
+      "rows_input": 10000,
+      "unique_leads": 6053,
+      "method": "Python keyed reducer",
+      "median_ms": 3.866,
+      "repeats": 3,
+      "outputs_match": true
+    },
+    {
+      "rows_input": 10000,
+      "unique_leads": 6053,
+      "method": "SQLite window SQL",
+      "median_ms": 23.006,
+      "repeats": 3,
+      "outputs_match": true
+    },
+    {
+      "rows_input": 50000,
+      "unique_leads": 30238,
+      "method": "Python keyed reducer",
+      "median_ms": 32.31,
+      "repeats": 3,
+      "outputs_match": true
+    },
+    {
+      "rows_input": 50000,
+      "unique_leads": 30238,
+      "method": "SQLite window SQL",
+      "median_ms": 172.064,
+      "repeats": 3,
+      "outputs_match": true
+    },
+    {
+      "rows_input": 100000,
+      "unique_leads": 60354,
+      "method": "Python keyed reducer",
+      "median_ms": 57.974,
+      "repeats": 3,
+      "outputs_match": true
+    },
+    {
+      "rows_input": 100000,
+      "unique_leads": 60354,
+      "method": "SQLite window SQL",
+      "median_ms": 254.406,
+      "repeats": 3,
+      "outputs_match": true
+    }
+  ]
+}

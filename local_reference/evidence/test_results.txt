@@ -1,0 +1,15 @@
+PASS  baseline source rows = 12
+PASS  baseline curated unique leads = 12
+PASS  baseline has zero quarantine
+PASS  baseline has 12 latest status snapshots
+PASS  edge-case input rows = 16
+PASS  edge-case bad rows = 2
+PASS  edge-case duplicate rows = 2
+PASS  edge-case unique leads = 12
+PASS  newer timestamp wins for duplicate SYN-002
+PASS  later source row wins ties for SYN-007
+PASS  both missing-ID and invalid-date checks execute
+PASS  source-specific totals reconcile
+PASS  repeat run produces deterministic metrics
+PASS  repeat run produces identical curated output
+RESULT  13 / 13 assertions passed; local Python execution only.

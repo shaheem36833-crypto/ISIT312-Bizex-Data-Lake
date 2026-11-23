@@ -1,0 +1,7 @@
+rows_input,unique_leads,method,median_ms,repeats,outputs_match
+10000,6053,Python keyed reducer,3.866,3,True
+10000,6053,SQLite window SQL,23.006,3,True
+50000,30238,Python keyed reducer,32.31,3,True
+50000,30238,SQLite window SQL,172.064,3,True
+100000,60354,Python keyed reducer,57.974,3,True
+100000,60354,SQLite window SQL,254.406,3,True

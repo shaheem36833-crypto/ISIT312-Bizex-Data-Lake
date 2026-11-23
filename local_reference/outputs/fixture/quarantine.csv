@@ -1,0 +1,3 @@
+source_row,lead_id,reason
+16,,MISSING_LEAD_ID
+17,SYN-999,INVALID_CREATED_AT

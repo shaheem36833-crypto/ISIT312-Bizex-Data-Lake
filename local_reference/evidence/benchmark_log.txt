@@ -1,0 +1,5 @@
+ 10,000 synthetic rows:   6,053 unique | Python reducer      3.87 ms | SQLite SQL     23.01 ms | output match YES
+ 50,000 synthetic rows:  30,238 unique | Python reducer     32.31 ms | SQLite SQL    172.06 ms | output match YES
+100,000 synthetic rows:  60,354 unique | Python reducer     57.97 ms | SQLite SQL    254.41 ms | output match YES
+BENCHMARK METHOD: median of 3 runs, one machine, synthetic data
+NOT evidence of Hadoop MapReduce vs Spark performance

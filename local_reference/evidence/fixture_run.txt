@@ -1,0 +1,16 @@
+BIZEX | AUDITED LOCAL REFERENCE RUN
+Data: SYNTHETIC ONLY | Engine: Python standard library
+Not a Hadoop, Spark, Hive, or company production execution
+rows_input               : 16
+rows_valid               : 14
+rows_quarantined         : 2
+rows_deduplicated        : 2
+unique_leads             : 12
+latest_status_snapshots  : 12
+Source -> unique lead counts:
+  Facebook          : 2
+  Instagram         : 5
+  Website           : 3
+  WhatsApp          : 2
+Output manifest: curated_leads.csv; lead_status_snapshot.csv; quarantine.csv; channel_counts.csv; metrics.json
+INPUT_SHA256: af855fd06fd25880c13c123236c6eb8e8c5596e9d0cc9b5c831f6213ad63c4e9

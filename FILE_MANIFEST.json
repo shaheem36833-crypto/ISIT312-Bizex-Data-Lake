@@ -1,0 +1,204 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 275
+    },
+    {
+      "path": "GITHUB_UPLOAD_INSTRUCTIONS.md",
+      "bytes": 1789
+    },
+    {
+      "path": "README.md",
+      "bytes": 5690
+    },
+    {
+      "path": "data/synthetic_leads.csv",
+      "bytes": 1446
+    },
+    {
+      "path": "docs/SCREENSHOT_INDEX.md",
+      "bytes": 1585
+    },
+    {
+      "path": "docs/VM_DEMO_GUIDE.md",
+      "bytes": 3443
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 738
+    },
+    {
+      "path": "docs/proposed_architecture.png",
+      "bytes": 77778
+    },
+    {
+      "path": "evidence/vm_screenshots/S01_files_in_vm.png",
+      "bytes": 53894
+    },
+    {
+      "path": "evidence/vm_screenshots/S02_hadoop_jps.png",
+      "bytes": 87639
+    },
+    {
+      "path": "evidence/vm_screenshots/S03_raw_zone_hdfs.png",
+      "bytes": 153645
+    },
+    {
+      "path": "evidence/vm_screenshots/S04_spark_python_versions.png",
+      "bytes": 43923
+    },
+    {
+      "path": "evidence/vm_screenshots/S05_etl_script_in_vm.png",
+      "bytes": 67431
+    },
+    {
+      "path": "evidence/vm_screenshots/S06_spark_etl_run.png",
+      "bytes": 130040
+    },
+    {
+      "path": "evidence/vm_screenshots/S07_curated_before_tuning.png",
+      "bytes": 293615
+    },
+    {
+      "path": "evidence/vm_screenshots/S08_hive_services_jps.png",
+      "bytes": 88365
+    },
+    {
+      "path": "evidence/vm_screenshots/S09_hive_tables_created.png",
+      "bytes": 178894
+    },
+    {
+      "path": "evidence/vm_screenshots/S10_hive_queries_2m16s.png",
+      "bytes": 121614
+    },
+    {
+      "path": "evidence/vm_screenshots/S11_spark_sql_18s.png",
+      "bytes": 129258
+    },
+    {
+      "path": "evidence/vm_screenshots/S12_curated_after_tuning.png",
+      "bytes": 208413
+    },
+    {
+      "path": "hive/analysis_queries.sql",
+      "bytes": 331
+    },
+    {
+      "path": "hive/create_tables.hql",
+      "bytes": 582
+    },
+    {
+      "path": "local_reference/data/synthetic_leads.csv",
+      "bytes": 1446
+    },
+    {
+      "path": "local_reference/data/synthetic_validation_fixture.csv",
+      "bytes": 1885
+    },
+    {
+      "path": "local_reference/evidence/baseline_run.txt",
+      "bytes": 644
+    },
+    {
+      "path": "local_reference/evidence/benchmark_log.txt",
+      "bytes": 460
+    },
+    {
+      "path": "local_reference/evidence/benchmark_results.csv",
+      "bytes": 343
+    },
+    {
+      "path": "local_reference/evidence/benchmark_results.json",
+      "bytes": 1514
+    },
+    {
+      "path": "local_reference/evidence/fixture_run.txt",
+      "bytes": 644
+    },
+    {
+      "path": "local_reference/evidence/local_benchmark_chart.png",
+      "bytes": 100228
+    },
+    {
+      "path": "local_reference/evidence/test_results.txt",
+      "bytes": 634
+    },
+    {
+      "path": "local_reference/outputs/baseline/channel_counts.csv",
+      "bytes": 71
+    },
+    {
+      "path": "local_reference/outputs/baseline/curated_leads.csv",
+      "bytes": 1446
+    },
+    {
+      "path": "local_reference/outputs/baseline/lead_status_snapshot.csv",
+      "bytes": 676
+    },
+    {
+      "path": "local_reference/outputs/baseline/metrics.json",
+      "bytes": 537
+    },
+    {
+      "path": "local_reference/outputs/baseline/quarantine.csv",
+      "bytes": 27
+    },
+    {
+      "path": "local_reference/outputs/fixture/channel_counts.csv",
+      "bytes": 71
+    },
+    {
+      "path": "local_reference/outputs/fixture/curated_leads.csv",
+      "bytes": 1438
+    },
+    {
+      "path": "local_reference/outputs/fixture/lead_status_snapshot.csv",
+      "bytes": 668
+    },
+    {
+      "path": "local_reference/outputs/fixture/metrics.json",
+      "bytes": 550
+    },
+    {
+      "path": "local_reference/outputs/fixture/quarantine.csv",
+      "bytes": 79
+    },
+    {
+      "path": "local_reference/scripts/__pycache__/etl_audited.cpython-313.pyc",
+      "bytes": 7865
+    },
+    {
+      "path": "local_reference/scripts/benchmark_methods.py",
+      "bytes": 3796
+    },
+    {
+      "path": "local_reference/scripts/etl_audited.py",
+      "bytes": 5001
+    },
+    {
+      "path": "local_reference/scripts/make_validation_fixture.py",
+      "bytes": 925
+    },
+    {
+      "path": "local_reference/scripts/run_local.sh",
+      "bytes": 571
+    },
+    {
+      "path": "local_reference/scripts/test_etl.py",
+      "bytes": 2012
+    },
+    {
+      "path": "optional_unexecuted/bizex_lead_lake.json",
+      "bytes": 1715
+    },
+    {
+      "path": "optional_unexecuted/spark_etl.py",
+      "bytes": 1362
+    },
+    {
+      "path": "spark/spark_etl.scala",
+      "bytes": 1705
+    }
+  ]
+}
