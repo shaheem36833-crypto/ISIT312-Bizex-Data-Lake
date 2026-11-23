@@ -66,13 +66,5 @@ bash scripts/run_local.sh
 
 This pipeline is **not** evidence of distributed processing. Local benchmark numbers compare Python and SQLite under a single-machine workload; they are **not** a controlled Spark-versus-Hive benchmark. The screenshot filenames `S10`/`S11` include command-wall-time labels, but those sessions should not be taken as a fair performance comparison without matching workloads, cache states, and start-up conditions.
 
-## Scope, provenance and limitations
-
-- The 12 synthetic records were created for coursework demonstration and are **not Bizex's internal lead data**.
-- The repo provides a functioning **student VM proof of concept**, not a deployed Bizex system.
-- The small CSV does not establish Big Data scalability or company data volumes.
-- No evidence of an actual Bizex stakeholder interview, sign-off, or performance evaluation is included.
-- Real Bizex workbooks, CRM exports, contact details, private lead records, credentials and API keys must **not** be uploaded to public GitHub.
-- The original PySpark script cannot run in the provided Python 3.4.3 environment and was not part of the successful demonstration.
 
 
