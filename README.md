@@ -75,6 +75,4 @@ This pipeline is **not** evidence of distributed processing. Local benchmark num
 - Real Bizex workbooks, CRM exports, contact details, private lead records, credentials and API keys must **not** be uploaded to public GitHub.
 - The original PySpark script cannot run in the provided Python 3.4.3 environment and was not part of the successful demonstration.
 
-## Course submission
 
-The lecturer requested **(1) final report, (2) presentation deck, (3) a GitHub codebase link** by **Wednesday 25 November 2026 at 12:00 PM**. This repository supplies the third item only. The report and slides must be submitted separately and their claims should match the evidence here.
