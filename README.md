@@ -67,4 +67,18 @@ bash scripts/run_local.sh
 This pipeline is **not** evidence of distributed processing. Local benchmark numbers compare Python and SQLite under a single-machine workload; they are **not** a controlled Spark-versus-Hive benchmark. The screenshot filenames `S10`/`S11` include command-wall-time labels, but those sessions should not be taken as a fair performance comparison without matching workloads, cache states, and start-up conditions.
 
 
+## Group Members
+
+**Lecturer:** Dr. Patrick Mukala
+
+| Member | Student Number |
+|---|---|
+| Faaiz Ahmed | 8941087 |
+| Humna Afaq | 8926463 |
+| Muhammad Shaheem | 9038371 |
+| Mustafa Kamran | 8948914 |
+| Ahmed Haroon | 9807792 |
+| Muhammad Ibraam | 9001591 |
+
+
 
